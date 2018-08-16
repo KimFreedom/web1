@@ -3,16 +3,23 @@
 <head>
   <title>WEB 1 - HTML - index</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
-  <ol>
-    <li><a href="HTML.html">HTML</a></li>
-    <li><a href="CSS.html">CSS</a></li>
-    <li><a href="JavaScript.html">JavaScript</a></li>
-  </ol>
-  <h2>WEB이란?</h2>
-  <p><a href="https://en.wikipedia.org/wiki/Web" target="_blank" title="Web specification">WEB</a> is an Internet-based hypertext system.</p>
-  <img src="web.jpg" width="100%"><p style="margin-top:45px;">I'm an index page.</p>
+  <div id="main_body">
+    <div id="body_list">
+      <ol>
+        <li><a href="HTML.html" class="saw">HTML</a></li>
+        <li><a href="CSS.html" class="saw" id="active">CSS</a></li>
+        <li><a href="JavaScript.html">JavaScript</a></li>
+      </ol>
+    </div>
+    <div id="body_content">
+      <h2>WEB이란?</h2>
+      <p><a href="https://en.wikipedia.org/wiki/Web" target="_blank" title="Web specification">WEB</a> is an Internet-based hypertext system.</p>
+      <img src="web.jpg" width="100%"><p style="margin-top:45px;">I'm an index page.</p>
+    </div>
+  </div>
 </body>
 </html>

@@ -1,0 +1,21 @@
+#main_body {
+  display:grid;
+  grid-template-columns: 150px 1fr;
+  border-top:1px solid black;
+}
+#body_list {
+  border-right: 1px solid black;
+  padding:10px;
+}
+#body_content {
+  padding:10px;
+}
+@media(max-width:800px) {
+  #main_body {
+    display:block;
+    border:none;
+  }
+  #body_list {
+    border:none;
+  }
+}
